@@ -1,0 +1,21 @@
+/* 全部元素的設定 */
+* {
+    /* div的大小包含border，所以content的大小要扣掉border。*/
+    box-sizing: border-box;
+}
+
+/* 個別設定 */
+.box {
+    border: 5px solid orange;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    float: left;
+    /* box-sizing: border-box; */
+}
+
+
+/* #box-3 { */
+/* div 的大小是用 coontent來定義，實際顯示大小要加上border，非主流使用。*/
+/* box-sizing: content-box; */
+/* }  */

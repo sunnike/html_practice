@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+
+.card h1 {
+    position: absolute;
+    top: 100px;
+    color: white;
+    z-index: 10;
+}
+
+.card img {
+    display: block;
+}
+
+.card::after {
+    content: "";
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    transition: opacity 1s;
+}
+
+.card:hover:after {
+    opacity: 0;
+}

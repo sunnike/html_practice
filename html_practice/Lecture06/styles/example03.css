@@ -1,0 +1,10 @@
+/* 同一層的後面第一個 */
+div+p {
+    border: 3px solid blue;
+}
+
+
+/* div同一層的所有P */
+div~p {
+    border: 3px solid brown;
+}

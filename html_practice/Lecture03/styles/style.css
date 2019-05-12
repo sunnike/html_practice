@@ -1,0 +1,34 @@
+/* Reset CSS: Reset margin and padding */
+
+.navbar_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar_link {
+    color: brown;
+    /* 這是行內元素 */
+    height: 48px;
+    /* 改成區塊元素上述高度才能改變*/
+    display: block;
+
+}
+
+
+table {
+    /* 將表格框限折疊 */
+    border-collapse: collapse;
+}
+
+
+.navtable,
+tr,
+td {
+    border: 3px solid black;
+}
+
+/* 只對奇數行動作 */
+tr:nth-child(2n+1) {
+    background-color: gray;
+}

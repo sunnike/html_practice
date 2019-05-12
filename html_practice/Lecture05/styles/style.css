@@ -1,0 +1,21 @@
+header {
+    width: 100%;
+    height: 300px;
+    border: 2px solid brown;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.right {
+    width: 30%;
+    border: 2px solid gold;
+}
+
+
+.right {
+    width: 30%;
+    border: 2px solid khaki;
+}

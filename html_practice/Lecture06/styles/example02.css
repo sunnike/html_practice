@@ -1,0 +1,13 @@
+.card {
+    width: 300px;
+    border: 3px solid black;
+
+}
+
+/* 沒有這個CSS Selector的話, 圖片顯惠超過範圍。*/
+.car img {
+    width: 100;
+    display: block;
+
+
+}

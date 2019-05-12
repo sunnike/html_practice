@@ -1,0 +1,85 @@
+.iphone {
+    width: 395px;
+    height: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+    /* background-image: url("https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6009/6009886cv11d.jpg"); */
+    background-size: cover;
+    background-position-x: -582px;
+    border-radius: 55px;
+    position: relative;
+}
+
+.shadow {
+    box-shadow: -46px -4px 4px #333333;
+    -webkit-box-shadow: -4px -4px 4px #333333;
+    -moz-box-shadow: -4px -4px 4px #333333;
+}
+
+.screen {
+    width: 350px;
+    height: 619px;
+    background-color: black;
+    position: absolute;
+    top: 90px;
+    left: 22px;
+}
+
+.screen_2 {
+    width: 345px;
+    height: 614px;
+    /* background-color: #333333; */
+    position: absolute;
+    top: 93px;
+    left: 24px;
+    box-shadow: 0px 0px 300px rgba(10%, 10%, 10%, 0.4);
+    background: linear-gradient(36deg, rgba(28, 21, 11, 0.4)30%, rgba(235, 242, 233, 0.8)95%);
+    background: -moz-linear-gradient(36deg, rgba(28, 21, 11, 0.4)30%, rgba(235, 242, 233, 0.8)95%);
+    background: -webkit-linear-gradient(36deg, rgba(28, 21, 11, 0.4)30%, rgba(235, 242, 233, 0.8)95%);
+    background: -o-linear-gradient(36deg, rgba(28, 21, 11, 0.4)30%, rgba(235, 242, 233, 0.8)95%);
+}
+
+.home_btn {
+    border: 2px solid #333333;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    position: absolute;
+    top: 721.5px;
+    left: 170px;
+}
+
+.home_btn_2 {
+    border: 1px solid #333333;
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    position: absolute;
+    top: 722.5px;
+    left: 170px;
+    z-index: 2;
+}
+
+.home_btn_3 {
+    border: 1px solid #444444;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    position: absolute;
+    top: 723.5px;
+    left: 172px;
+    z-index: 4;
+}
+
+
+
+.camera {
+    border: 2px solid black;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    top: 43px;
+    left: 122px;
+}

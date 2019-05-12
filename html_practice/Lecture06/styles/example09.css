@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.flex_container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.navebar li {
+    padding: 10px;
+}
+
+
+.navbar li:not(:last-child)::after {
+    content: " > ";
+}

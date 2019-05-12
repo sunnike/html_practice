@@ -1,0 +1,193 @@
+header {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: peru;
+    /* border: 2px solid orange; */
+}
+
+.box_header {
+    border: 2px solid peru;
+}
+
+
+.container_content {
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    color: powderblue;
+    /* 上下為0, 左右為auto */
+    margin: 0 auto;
+    line-height: 1.5;
+
+}
+
+.box {
+    padding-top: calc((354px - 52px) / 2);
+    border: 2px solid powderblue;
+}
+
+
+#box-2 {
+    float: left;
+    width: 15%;
+    height: 100%;
+    /* border: 2px solid green; */
+}
+
+#box-3 {
+    float: left;
+    width: 70%;
+    height: 100%;
+    /* border: 2px solid brown; */
+}
+
+#box-4 {
+    float: left;
+    width: 15%;
+    height: 100%;
+    /* border: 2px solid purple; */
+}
+
+
+
+.container_story {
+    width: 100%;
+    height: 240px;
+    line-height: 1.5;
+    text-align: center;
+    color: olivedrab;
+    /* 上下為0, 左右為auto */
+    margin: 0 auto;
+}
+
+.box_story {
+    height: 100%;
+    border-radius: 15px;
+    border: 2px solid olivedrab;
+}
+
+#box_story_1 {
+    float: left;
+}
+
+#box_story_2 {
+    float: left;
+}
+
+
+#box_story_3 {
+    float: left;
+}
+
+#box_story_4 {
+    float: left;
+}
+
+
+.container_end {
+    width: 100%;
+    height: 120px;
+    line-height: 1.5;
+    text-align: center;
+    color: sandybrown;
+    /* clear: both; */
+    /* 上下為0, 左右為auto */
+    margin: 0 8%;
+}
+
+.box_end {
+    height: 100%;
+    border-radius: 15px;
+    border: 2px solid sandybrown;
+}
+
+
+#box_end_1 {
+    float: left;
+}
+
+#box_end_2 {
+    margin: 0 5%;
+    float: left;
+}
+
+#box_end_3 {
+    float: left;
+}
+
+
+
+.container_footrt {
+    width: 100%;
+    height: 120px;
+    color: cornflowerblue;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+    /* 清除周圍的浮動元素 (如果footer在content的container裡面)*/
+    clear: both;
+}
+
+.box_footer {
+    height: 100%;
+    border-radius: 15px;
+    border: 2px solid cornflowerblue;
+}
+
+
+
+
+/* Class 名稱是col-開頭的*/
+[calss^="col-"] {
+    border: 5px solid blue
+}
+
+
+.col-1 {
+    width: calc(100% * 1 /12)
+}
+
+.col-2 {
+    width: calc(100% * 2 /12)
+}
+
+.col-3 {
+    width: calc(100% * 3 /12)
+}
+
+.col-4 {
+    width: calc(100% * 4 /12)
+}
+
+.col-5 {
+    width: calc(100% * 5 /12)
+}
+
+.col-6 {
+    width: calc(100% * 6 /12)
+}
+
+.col-7 {
+    width: calc(100% * 7 /12)
+}
+
+.col-7 {
+    width: calc(100% * 8 /12)
+}
+
+.col-9 {
+    width: calc(100% * 9 /12)
+}
+
+.col-10 {
+    width: calc(100% * 10 /12)
+}
+
+.col-11 {
+    width: calc(100% * 11 /12)
+}
+
+.col-12 {
+    width: calc(100% * 12 /12)
+}

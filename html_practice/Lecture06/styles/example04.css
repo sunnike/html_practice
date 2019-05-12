@@ -1,0 +1,20 @@
+/* P是第二個小孩，不會被選到。 */
+p:first-child {
+    border: 3px solid green;
+}
+
+p:first-of-type {
+    border: 3px solid green;
+}
+
+
+p:first-letter {
+    color: red;
+    font-size: 50px;
+    display: block;
+    /* Float會造成文繞圖 */
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+}

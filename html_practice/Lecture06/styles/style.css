@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    border: 2px solid brown;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.justify-conetent-space-between {
+    justify-content: space-between;
+}
+
+
+.narbar {
+    border: 3px solid green;
+}
+
+
+.navbar>li {
+    border: 3px solid blueviolet;
+    padding: 10px;
+    position: relative;
+}
+
+.navbar>li>ul {
+    position: absolute;
+    top: 50px;
+    /* 讓選單不透明 */
+    background-color: white;
+}
+
+.navbar,
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+article p {
+    border: 3px dashed red;
+}
+
+.navbar ul {
+    border: 3px solid green;
+    display: none;
+}
+
+
+/* 滑鼠滑過所有ul會全部顯示
+.navbar li:hover ul {
+    display: block;
+}*/
+
+.navbar li:hover>ul {
+    display: block;
+}

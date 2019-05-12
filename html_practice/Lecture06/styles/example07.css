@@ -1,0 +1,9 @@
+p:before {
+    content: "before";
+    color: green;
+}
+
+p::after {
+    content: "after";
+    color: blue;
+}
