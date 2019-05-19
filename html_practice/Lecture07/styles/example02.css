@@ -1,0 +1,40 @@
+[href*="file"] {
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 50px;
+    padding-left: 60px;
+    line-height: 50px;
+}
+
+
+[href$=".ppt"] {
+    background-image: url("../file_icon/file_ppt1.png");
+}
+
+
+[href$=".docx"] {
+    background-image: url("../file_icon/file_docx.png");
+}
+
+[href$=".doc"] {
+    background-image: url("../file_icon/file_doc1.png");
+}
+
+[href$=".xlsx"] {
+    background-image: url("../file_icon/file_xlsx.png");
+}
+
+
+[href$=".txt"] {
+    background-image: url("../file_icon/file_txt1.png");
+}
+
+
+[href$=".html"] {
+    background-image: url("../file_icon/file_html.png");
+}
+
+li {
+    list-style-type: none;
+}
