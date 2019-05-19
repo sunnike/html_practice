@@ -1,0 +1,84 @@
+.position_fixed_top {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.flex_row_warp_around {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-flow: row wrap;
+}
+
+
+
+
+
+
+.container_position {
+    width: 100%;
+
+}
+
+.box {
+    border: 3px solid green;
+    width: 120px;
+    height: 120px;
+
+}
+
+#box_3 {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#box_4 {
+    position: fixed;
+    top: 60px;
+    left: 60px;
+}
+
+
+.rectangle {
+    border: 3px solid aqua;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 450px;
+    left: 450px;
+    z-index: 30;
+}
+
+
+.crclular {
+    border: 3px solid gold;
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 20;
+}
+
+
+.crclular2 {
+    border: 3px solid green;
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    z-index: 10;
+}
+
+
+h1 {
+    color: lightcoral;
+}

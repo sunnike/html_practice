@@ -1,0 +1,115 @@
+.flex_navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+.container_1 p {
+    border: 2px solid salmon;
+}
+
+.container_1>h1 {
+    border: 2px solid yellowgreen;
+}
+
+h1+h3 {
+    border: 2px solid palegoldenrod;
+}
+
+h4~h2 {
+    border: 2px solid purple;
+}
+
+
+
+.navbar {
+    width: 100%;
+    height: 150px;
+}
+
+.navbar>li {
+    border: 2px solid firebrick;
+    position: relative;
+    padding: 10px;
+}
+
+.navbar>li>ul {
+    position: absolute;
+    color: aqua;
+    top: 30px;
+    left: 10px;
+}
+
+.navbar>li>ul ul {
+    position: absolute;
+    border: 2px solid blue;
+    color: green;
+    top: 30px;
+    left: 70px;
+}
+
+
+.navbar,
+.navar ul,
+.sub_menu,
+.sub_sub_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar ul {
+    border: 2px solid fuchsia;
+    display: none;
+}
+
+.navbar li:hover>ul {
+    display: block;
+
+}
+
+.navbar li:hover {
+    color: red;
+}
+
+
+
+.flex_box {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container_box {
+    width: 100%;
+    height: calc(6 * 100);
+}
+
+.box {
+    width: calc(100% /3);
+    height: 100px;
+    border: 2px solid khaki;
+    text-align: center;
+
+}
+
+
+.box:nth-child(6n+4),
+.box:nth-child(6n+5),
+.box:nth-child(6n+6) {
+    background-color: tan;
+}
+
+.box:nth-child(3n+2) {
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.box:nth-child(3n+1) {
+    border-right: 0px;
+}
+
+.box:nth-child(3n) {
+    border-left: 0px;
+}
